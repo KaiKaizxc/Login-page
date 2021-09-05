@@ -1,0 +1,59 @@
+*{
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box; 
+}
+
+html, body{
+    margin: 0; 
+}
+
+.full-screen-container{
+    background-image: url(me.jpg);
+    height: 100vh;
+    width: 100vw;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+@media only screen and (max-width: 600px) {
+    login-container{
+        background-size: auto;
+
+    }
+}
+
+.login-container{
+    background-color: hsla(231, 63%, 73%, 0.6);
+    padding: 50px 30px;
+    min-width: 300px;
+    width: 50%;
+    max-width: 400px;
+}
+
+.login-title{
+    color: white;
+    text-align: center;
+    margin: 0;
+    margin-bottom: 40px;
+    font-weight: normal;
+    font-size: 2em;
+}
+
+.input-group{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+.input-group label{
+    color: white;
+    font-weight: lighter;
+    font-size: 1.5em;
+    margin-bottom: 7px;
+
+}
